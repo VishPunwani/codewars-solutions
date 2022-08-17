@@ -11,8 +11,8 @@ Return true if the array contains the value, false if not.*/
 /* MY SOLUTION */
 
 function check(a, x) {
-    if( a.includes(x)){
-      return true
-    }
-    return false
+  if( a.includes(x)){
+    return true
   }
+  return false
+}
